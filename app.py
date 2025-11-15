@@ -91,8 +91,7 @@ fig3 = px.scatter(
     y="Female_Literate",
     color="State name",
     size="Population",
-    hover_name="District",
-    trendline="ols"
+    hover_name="District"
 )
 st.plotly_chart(fig3, use_container_width=True)
 
